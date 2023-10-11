@@ -12,6 +12,10 @@
 		<description>
 			<p>Bards of the College of Linguistics are expert translators, elocutionists, and cryptographers. In their bardic studies, they research not only how they can most effectively inspire their friends with their spoken and written word, but also how they can best manipulate the utterances and resonances of their spells to maximize their impact. Despite their profound magical abilities, these bards prefer learning to communicate with other creatures “the old-fashioned way,” as they find it to be the most authentic and precise way to express themselves. They dive headlong into the history and culture surrounding a  language—excitedly noting the idiosyncrasies of each dialect—and they dream of opportunities where they can properly show off their fluency to native speakers</p>
 			<div element="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES" />
+			<div element="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES2" />
+			<div element="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES3" />
+			<div element="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES4" />
+			<div element="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES5" />
 			<div element="ID_PHANES_COLLEGE_OF_LINGUISTICS_ARCANE_LINGUIST" />
 			<div element="ID_PHANES_COLLEGE_OF_LINGUISTICS_VOCAL_PROJECTION" />
 			<div element="ID_PHANES_COLLEGE_OF_LINGUISTICS_BARDIC_INSPIRATION" />
