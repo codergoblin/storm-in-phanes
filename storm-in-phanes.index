@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Storm in phanes</name>
+		<update version="1.0.0">
+			<file name="storm-in-phanes.index" url="https://raw.githubusercontent.com/codergoblin/storm-in-phanes/master/storm-in-phanes.index" />
+		</update>
+	</info>
+	<files>
+		<file name="bard-subclass-college-of-linguistics.xml" url="https://raw.githubusercontent.com/codergoblin/storm-in-phanes/master/phanes/bard-subclass-college-of-linguistics.xml" />
+	</files>
+</index>

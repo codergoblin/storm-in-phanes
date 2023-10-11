@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Bard subclass college of linguistics</name>
+		<update version="1.0.0">
+			<file name="bard-subclass-college-of-linguistics.xml" url="https://raw.githubusercontent.com/codergoblin/storm-in-phanes/master/phanes/bard-subclass-college-of-linguistics.xml" />
+		</update>
+	</info>
+	
+	<element name="College of Linguistics" type="Archetype" source="Spectre creations" id="ID_PHANES_COLLEGE_OF_LINGUISTICS">
+		<supports>Bard College</supports>
+		<description>
+			<p>Bards of the College of Linguistics are expert translators, elocutionists, and cryptographers. In their bardic studies, they research not only how they can most effectively inspire their friends with their spoken and written word, but also how they can best manipulate the utterances and resonances of their spells to maximize their impact. Despite their profound magical abilities, these bards prefer learning to communicate with other creatures “the old-fashioned way,” as they find it to be the most authentic and precise way to express themselves. They dive headlong into the history and culture surrounding a  language—excitedly noting the idiosyncrasies of each dialect—and they dream of opportunities where they can properly show off their fluency to native speakers</p>
+			<div element="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES" />
+			<div element="ID_PHANES_COLLEGE_OF_LINGUISTICS_ARCANE_LINGUIST" />
+			<div element="ID_PHANES_COLLEGE_OF_LINGUISTICS_VOCAL_PROJECTION" />
+			<div element="ID_PHANES_COLLEGE_OF_LINGUISTICS_BARDIC_INSPIRATION" />
+			<div element="ID_PHANES_COLLEGE_OF_LINGUISTICS_WORDS_OF_POWER" />
+		</description>
+		<sheet display="false">
+			<description>Adherents of the College of Eloquence master the art of oratory.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES" level="3" />
+			<grant type="Archetype Feature" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_ARCANE_LINGUIST" level="3" />
+			<grant type="Archetype Feature" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_VOCAL_PROJECTION" level="3" />
+			<grant type="Archetype Feature" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES2" level="5" />
+			<grant type="Archetype Feature" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_BARDIC_INSPIRATION" level="6" />
+			<grant type="Archetype Feature" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES3" level="10" />
+			<grant type="Archetype Feature" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_WORDS_OF_POWER" level="14" />
+			<grant type="Archetype Feature" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES4" level="15" />
+			<grant type="Archetype Feature" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES5" level="20" />
+		</rules>
+	</element>
+	
+	<element name="Vocal projection" type="Archetype Feature" source="Spectre creations" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_VOCAL_PROJECTION">
+		<description>
+			<p><em>3rd-level College of Linguistics feature</em></p>
+			<p>3rd level, you learn to enhance the potency of the magical words you speak. The range of your Bardic Inspiration feature increases to 120 feet. <br/> In addition, whenever you cast a spell that has a verbal component, you can expend one use of your Bardic Inspiration to either grant one friendly target of the spell temporary hit points or cause one hostile target of the spell to take psychic or thunder damage (your choice). The amount of temporary hit points gained or damage dealt is equal to the number you roll on the Bardic Inspiration die. When you expend a use of your Bardic Inspiration in this way, you can also apply one of the following Vocal Projections of your choice to the spell. You can use only one Vocal Projection option per turn.
+				<p><b>Manipulative Projection.</b> You interweave the verbal components of the spell with a mind-altering enchant-ment, influencing the actions of one creature affected by the spell. If the target is friendly, it has advantage on the next attack roll it makes before the end of its next turn; if the target is hostile, it has disadvantage on the next attack roll it makes before the end of its next turn. </p>
+				<p><b>Thunderous Projection.</b> Your voice booms as you perform the verbal components of the spell. If the spell has a range of 5 feet or greater, its range is doubled for this casting.</p>
+				<p><b>Ventriloquist’s Projection.</p> You perform the verbal components of the spell through a willing creature you can see within 60 feet of you, speaking through the creature in your own voice. If the spell has a range of touch, that creature can deliver the spell as if it had cast the spell (no action required), otherwise the spell originates from you.</p>
+			</p>
+		</description>
+		<sheet>
+			<p>3rd level, you learn to enhance the potency of the magical words you speak. The range of your Bardic Inspiration feature increases to 120 feet. <br/> In addition, whenever you cast a spell that has a verbal component, you can expend one use of your Bardic Inspiration to either grant one friendly target of the spell temporary hit points or cause one hostile target of the spell to take psychic or thunder damage (your choice). The amount of temporary hit points gained or damage dealt is equal to the number you roll on the Bardic Inspiration die. When you expend a use of your Bardic Inspiration in this way, you can also apply one of the following Vocal Projections of your choice to the spell. You can use only one Vocal Projection option per turn.
+				<p><b>Manipulative Projection.</b> You interweave the verbal components of the spell with a mind-altering enchant-ment, influencing the actions of one creature affected by the spell. If the target is friendly, it has advantage on the next attack roll it makes before the end of its next turn; if the target is hostile, it has disadvantage on the next attack roll it makes before the end of its next turn. </p>
+				<p><b>Thunderous Projection.</b> Your voice booms as you perform the verbal components of the spell. If the spell has a range of 5 feet or greater, its range is doubled for this casting.</p>
+				<p><b>Ventriloquist’s Projection.</p> You perform the verbal components of the spell through a willing creature you can see within 60 feet of you, speaking through the creature in your own voice. If the spell has a range of touch, that creature can deliver the spell as if it had cast the spell (no action required), otherwise the spell originates from you.</p>
+			</p>
+		</sheet>
+	</element>
+
+
+	<element name="Arcane linguist" type="Archetype Feature" source="Spectre creations" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_ARCANE_LINGUIST">
+		<description>
+			<p><em>3rd-level College of Linguistics feature</em></p>
+			<p>At 3rd level, you learn the comprehend languages spell. If you already know this spell, you learn a different Ist-level bard spell of your choice. The spell doesn’t count against your number of spells known. When you castcomprehend languages, the spell has a range of touch, instead of self, and if you cast it using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st</p>
+		</description>
+		<sheet>
+			<p>At 3rd level, you learn the comprehend languages spell. If you already know this spell, you learn a different Ist-level bard spell of your choice. The spell doesn’t count against your number of spells known. When you castcomprehend languages, the spell has a range of touch, instead of self, and if you cast it using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st</p>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_COMPREHEND_LANGUAGES" spellcasting="Bard" />
+		</rules>
+	</element>
+
+	<element name="Bonus proficiencies" type="Archetype Feature" source="Spectre creations" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES2">
+		<description>
+			<p>Choose a language</p>
+		</description>
+		<rules>
+			<select type="Language" name="Language (Collegue of linguistics)" supports="Standard||Exotic" />
+		</rules>
+	</element>
+	
+	<element name="Bonus proficiencies" type="Archetype Feature" source="Spectre creations" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES3">
+		<description>
+			<p>Choose a language</p>
+		</description>
+		<rules>
+			<select type="Language" name="Language (Collegue of linguistics)" supports="Standard||Exotic" />
+		</rules>
+	</element>
+
+	<element name="Bonus proficiencies" type="Archetype Feature" source="Spectre creations" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES4">
+		<description>
+			<p>Choose a language</p>
+		</description>
+		<rules>
+			<select type="Language" name="Language (Collegue of linguistics)" supports="Standard||Exotic" />
+		</rules>
+	</element>
+
+	<element name="Bonus proficiencies" type="Archetype Feature" source="Spectre creations" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES5">
+		<description>
+			<p>Choose a language</p>
+		</description>
+		<rules>
+			<select type="Language" name="Language (Collegue of linguistics)" supports="Standard||Exotic" />
+		</rules>
+	</element>
+
+</elements>

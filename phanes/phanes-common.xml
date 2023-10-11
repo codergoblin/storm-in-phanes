@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Bard subclass college of linguistics</name>
+		<update version="1.0.0">
+			<file name="phanes-common.xml" url="https://raw.githubusercontent.com/codergoblin/storm-in-phanes/master/phanes/phanes-common.xml" />
+		</update>
+	</info>
+
+    <element name="Northern" type="Language" source="Storm in phanes" id="ID_PHANES_LANGUAGE_NORTHERN">
+        <description>
+            <p>Spoken in Mandina and northern tundra beyond the Seid mountains.</p>
+        </description>
+        <setters>
+            <set name="speakers">Northern lands</set>
+        </setters>
+    </element>
+
+    <element name="Galdric" type="Language" source="Storm in phanes" id="ID_PHANES_LANGUAGE_GALDRIC">
+        <description>
+            <p>Language spoken by the primitive tribes in the northern lands</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Galdra</set>
+        </setters>
+    </element>
+
+    <element name="Zykhian" type="Language" source="Storm in phanes" id="ID_PHANES_LANGUAGE_ZYKHIAN">
+        <description>
+            <p>Language spoken in the Molokith empire</p>
+        </description>
+        <setters>
+            <set name="speakers">Molokith</set>
+        </setters>
+    </element>
+
+    <element name="Arsayinian" type="Language" source="Storm in phanes" id="ID_PHANES_LANGUAGE_ARSAYINIAN">
+        <description>
+            <p>Language spoken in the Arsay dynnasty</p>
+        </description>
+        <setters>
+            <set name="speakers">Arsay</set>
+        </setters>
+    </element>
+
+    <element name="Antediluvian" type="Language" source="Storm in phanes" id="ID_PHANES_LANGUAGE_ANTEDILUVIAN">
+        <description>
+            <p>Language spoken by the primitive tribes in Phanes</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Antediluvian</set>
+        </setters>
+    </element>
+
+</elements>
