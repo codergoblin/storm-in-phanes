@@ -8,5 +8,6 @@
 	</info>
 	<files>
 		<file name="bard-subclass-college-of-linguistics.xml" url="https://raw.githubusercontent.com/codergoblin/storm-in-phanes/master/phanes/bard-subclass-college-of-linguistics.xml" />
+		<file name="phanes-common.xml" url="https://raw.githubusercontent.com/codergoblin/storm-in-phanes/master/phanes/phanes-common.xml" />
 	</files>
 </index>
