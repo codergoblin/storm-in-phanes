@@ -33,6 +33,29 @@
 		</rules>
 	</element>
 	
+	<element name="Words of power" type="Archetype Feature" source="Spectre creations" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_WORDS_OF_POWER">
+		<description>
+			<p><em>14rd-level College of Linguistics feature</em></p>
+			<p>At 14th level, through your esoteric studies of language, you have unveiled a series of forgotten, forbidden, or destructive words that can magically cripple the linguistic capabilities of your foes. As an action, you can utter your words of power and choose one creature within 120 feet of you that can hear you. The target must make an Intelligence saving throw against your spell save DC. <br/> On a failed save, the target takes psychic or thunder damage (your choice) equal to 2d10 + half your bard level, and for I minute or until you lose your concentration (as if concentrating on a spell), the target can’t speak, com-municate telepathically, perform the verbal componentsof spells, or understand language. On a suc-cessful save, the target takes half as much damage and stumbles over its words for a short time; all creatures have advantage on saving throws made against any spells the target casts before the end of its next turn. <br/> Once you use this feature, you can’t do so again until you finishashortor long rest.</p>		
+		</description>
+		<sheet action="Action">
+			<description>
+				<p>As an action, you can utter your words of power and choose one creature within 120 feet of you that can hear you. The target must make an Intelligence saving throw against your spell save DC. <br/> On a failed save, the target takes psychic or thunder damage (your choice) equal to 2d10 + half your bard level, and for I minute or until you lose your concentration (as if concentrating on a spell), the target can’t speak, com-municate telepathically, perform the verbal componentsof spells, or understand language. On a suc-cessful save, the target takes half as much damage and stumbles over its words for a short time; all creatures have advantage on saving throws made against any spells the target casts before the end of its next turn. <br/> Once you use this feature, you can’t do so again until you finishashortor long rest.</p>		
+			</description>
+		</sheet>
+	</element>
+
+	<element name="Bardic inspiration" type="Archetype Feature" source="Spectre creations" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_BARDIC_INSPIRATION">
+		<description>
+			<p><em>6rd-level College of Linguistics feature</em></p>
+			<p>At 6th level, you gain an additional way to grant your Bardic Inspiration, inspiring others via your written word. At the end of a short or long rest, you can inscribe up to fifteen words on an object, such as a piece of paper, parchment, or other suitable writing material, infusing your script with bardic magic.<br/> A creature in possession of the object is considered to have a Bardic Inspiration die from you and can spend the die as normal. Once the Bardic Inspiration die is rolled, the text vanishes from the object.<br/> You can only have three objects infused with this bardic magic at a time, and you can choose to dismiss the magic from the text of any of these objects at any time.</p>
+		</description>
+		<sheet>
+			<p>At 6th level, you gain an additional way to grant your Bardic Inspiration, inspiring others via your written word. At the end of a short or long rest, you can inscribe up to fifteen words on an object, such as a piece of paper, parchment, or other suitable writing material, infusing your script with bardic magic.<br/> A creature in possession of the object is considered to have a Bardic Inspiration die from you and can spend the die as normal. Once the Bardic Inspiration die is rolled, the text vanishes from the object.<br/> You can only have three objects infused with this bardic magic at a time, and you can choose to dismiss the magic from the text of any of these objects at any time.</p>
+		</sheet>
+	</element>
+
+
 	<element name="Vocal projection" type="Archetype Feature" source="Spectre creations" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_VOCAL_PROJECTION">
 		<description>
 			<p><em>3rd-level College of Linguistics feature</em></p>
