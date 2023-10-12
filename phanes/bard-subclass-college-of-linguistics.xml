@@ -92,11 +92,24 @@
 		</rules>
 	</element>
 
+	<element name="Bonus proficiencies" type="Archetype Feature" source="Spectre creations" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES">
+		<description>
+			<p>When you join the College of Linguistics at 3rd level, you gain proficiency with calligrapher's supplies and the forgery kit. You can use an ink pen, quill, or even writing instrument, or a book in which you have written at least 20 pages of text as a spellcasting focus for your bard spells. <br/> In addition, you learn two languages of your choice. You learn additional languages when you reach certain levels in this class, learning to languages at 5th, 10th, 15th and 20th level.</p>
+		</description>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES" />
+			<select type="Language" name="Language (Collegue of linguistics)" supports="Standard||Exotic" />
+			<select type="Language" name="Language (Collegue of linguistics)" supports="Standard||Exotic" />
+		</rules>
+	</element>
+
 	<element name="Bonus proficiencies" type="Archetype Feature" source="Spectre creations" id="ID_PHANES_COLLEGE_OF_LINGUISTICS_BONUS_PROFICIENCIES2">
 		<description>
 			<p>Choose a language</p>
 		</description>
 		<rules>
+			<select type="Language" name="Language (Collegue of linguistics)" supports="Standard||Exotic" />
 			<select type="Language" name="Language (Collegue of linguistics)" supports="Standard||Exotic" />
 		</rules>
 	</element>
@@ -107,6 +120,7 @@
 		</description>
 		<rules>
 			<select type="Language" name="Language (Collegue of linguistics)" supports="Standard||Exotic" />
+			<select type="Language" name="Language (Collegue of linguistics)" supports="Standard||Exotic" />
 		</rules>
 	</element>
 
@@ -116,6 +130,7 @@
 		</description>
 		<rules>
 			<select type="Language" name="Language (Collegue of linguistics)" supports="Standard||Exotic" />
+			<select type="Language" name="Language (Collegue of linguistics)" supports="Standard||Exotic" />
 		</rules>
 	</element>
 
@@ -124,6 +139,7 @@
 			<p>Choose a language</p>
 		</description>
 		<rules>
+			<select type="Language" name="Language (Collegue of linguistics)" supports="Standard||Exotic" />
 			<select type="Language" name="Language (Collegue of linguistics)" supports="Standard||Exotic" />
 		</rules>
 	</element>
