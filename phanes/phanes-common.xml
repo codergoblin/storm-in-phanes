@@ -7,50 +7,64 @@
 		</update>
 	</info>
 
+
     <element name="Northern" type="Language" source="Storm in phanes" id="ID_PHANES_LANGUAGE_NORTHERN">
+        <supports>Standard</supports>
         <description>
             <p>Spoken in Mandina and northern tundra beyond the Seid mountains.</p>
         </description>
         <setters>
+			<set name="standard">true</set>
             <set name="speakers">Northern lands</set>
+			<set name="script">Northern</set>
         </setters>
     </element>
 
     <element name="Galdric" type="Language" source="Storm in phanes" id="ID_PHANES_LANGUAGE_GALDRIC">
+        <supports>Exotic</supports>
         <description>
             <p>Language spoken by the primitive tribes in the northern lands</p>
         </description>
         <setters>
             <set name="exotic">true</set>
             <set name="speakers">Galdra</set>
+			<set name="script">Galdric</set>
         </setters>
     </element>
 
     <element name="Zykhian" type="Language" source="Storm in phanes" id="ID_PHANES_LANGUAGE_ZYKHIAN">
+        <supports>Standard</supports>
         <description>
             <p>Language spoken in the Molokith empire</p>
         </description>
         <setters>
+			<set name="standard">true</set>
             <set name="speakers">Molokith</set>
+			<set name="script">Zykhian</set>
         </setters>
     </element>
 
     <element name="Arsayinian" type="Language" source="Storm in phanes" id="ID_PHANES_LANGUAGE_ARSAYINIAN">
+        <supports>Standard</supports>
         <description>
             <p>Language spoken in the Arsay dynnasty</p>
         </description>
         <setters>
+			<set name="standard">true</set>
             <set name="speakers">Arsay</set>
+			<set name="script">Arsay</set>
         </setters>
     </element>
 
     <element name="Antediluvian" type="Language" source="Storm in phanes" id="ID_PHANES_LANGUAGE_ANTEDILUVIAN">
+        <supports>Exotic</supports>
         <description>
             <p>Language spoken by the primitive tribes in Phanes</p>
         </description>
         <setters>
             <set name="exotic">true</set>
             <set name="speakers">Antediluvian</set>
+			<set name="script">Antediluvian</set>
         </setters>
     </element>
 
