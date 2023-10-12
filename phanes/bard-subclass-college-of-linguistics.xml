@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Bard subclass college of linguistics</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="bard-subclass-college-of-linguistics.xml" url="https://raw.githubusercontent.com/codergoblin/storm-in-phanes/master/phanes/bard-subclass-college-of-linguistics.xml" />
 		</update>
 	</info>
