@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Storm in phanes</name>
-		<update version="1.0.1">
+		<update version="1.0.2">
 			<file name="storm-in-phanes.index" url="https://raw.githubusercontent.com/codergoblin/storm-in-phanes/master/storm-in-phanes.index" />
 		</update>
 	</info>

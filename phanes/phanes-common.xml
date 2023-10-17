@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Bard subclass college of linguistics</name>
-		<update version="1.0.1">
+		<update version="1.0.2">
 			<file name="phanes-common.xml" url="https://raw.githubusercontent.com/codergoblin/storm-in-phanes/master/phanes/phanes-common.xml" />
 		</update>
 	</info>
@@ -67,5 +67,58 @@
 			<set name="script">Antediluvian</set>
         </setters>
     </element>
+
+	<element name="Flintlock pistol" type="Weapon" source="Storm in Phanes" id="ID_PHANES_WEAPON_PISTOL">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING</supports>
+		<description>
+			<p>+2 to attack against heavy armor. Crit damage is doubled.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">250</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">50/150</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="proficiency">ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL</set>
+			<!-- <set name="ammunition">ID_WOTC_DMG_ITEM_BULLET</set> -->
+		</setters>
+	</element>
+
+
+	<element name="Matchlock musket" type="Weapon" source="Storm in Phanes" id="ID_PHANES_WEAPON_MUSKET">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+		<description>
+			<p>+2 to attack against heavy armor. Crit damage is doubled. Can attach bayonet, that acts as pike</p>
+		</description>		
+        <setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">500</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">150/600</set>
+			<set name="damage" type="piercing">1d10</set>
+			<set name="proficiency">ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_MUSKET</set>
+			<!-- <set name="ammunition">ID_WOTC_DMG_ITEM_BULLET</set> -->
+		</setters>
+	</element>
+
+
+	<element name="Matchlock musket" type="Weapon" source="Storm in Phanes" id="ID_PHANES_WEAPON_MUSKET">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+		<description>
+			<p>+2 to attack against heavy armor. Crit damage is doubled. Scattershot (split for every dice)</p>
+		</description>		
+        <setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">500</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">30/200</set>
+			<set name="damage" type="piercing">3d4</set>
+			<set name="proficiency">ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_MUSKET</set>
+			<!-- <set name="ammunition">ID_WOTC_DMG_ITEM_BULLET</set> -->
+		</setters>
+	</element>
 
 </elements>
