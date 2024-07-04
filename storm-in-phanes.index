@@ -2,12 +2,14 @@
 <index>
 	<info>
 		<name>Storm in phanes</name>
-		<update version="1.0.2">
+		<update version="1.0.3">
 			<file name="storm-in-phanes.index" url="https://raw.githubusercontent.com/codergoblin/storm-in-phanes/master/storm-in-phanes.index" />
 		</update>
 	</info>
 	<files>
+		<file name="phanes-common.xml" url="https://raw.githubusercontent.com/codergoblin/storm-in-phanes/master/phanes/paladin-subclass-oath-of-grave.xml" />
 		<file name="bard-subclass-college-of-linguistics.xml" url="https://raw.githubusercontent.com/codergoblin/storm-in-phanes/master/phanes/bard-subclass-college-of-linguistics.xml" />
 		<file name="phanes-common.xml" url="https://raw.githubusercontent.com/codergoblin/storm-in-phanes/master/phanes/phanes-common.xml" />
+
 	</files>
 </index>
