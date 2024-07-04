@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Bard subclass college of linguistics</name>
-		<update version="1.0.2">
+		<update version="1.0.3">
 			<file name="phanes-common.xml" url="https://raw.githubusercontent.com/codergoblin/storm-in-phanes/master/phanes/phanes-common.xml" />
 		</update>
 	</info>
