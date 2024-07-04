@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Oath of the grave</name>
+    <update version="1.0.3">
+      <file name="paladin-subclass-oath-of-grave.xml" url="https://raw.githubusercontent.com/codergoblin/storm-in-phanes/master/phanes/paladin-subclass-oath-of-grave.xml" />
+    </update>
+  </info>
+
+  <element name="Oath of the grave" type="Archetype" source="Phanes" id="ID_PHANES_OATH_OF_THE_GRAVE">
+    <supports>Sacred Oath</supports>
+    <description>
+      <p>Diaprats of the order of the “grave knights” swear the oath to serve in their life and beyond the grave. They sacrifice their chance at the afterlife for an immortality of servitude for the greater good. In life a grave knight is expected to be a beacon of virtue, uncorruptible and worthy of wielding the great power and temptation that comes with undeath. Only few initiatiated become true undead or “catacomb saint” as to maintan the sense of self requires great amount willpower and dedication to the cause.</p>
+      <p><i>Et in morte servio</i></p>
+      <h5>Tenants of the grave knights</h5>
+      <p>Through the teachings of the grave knights, the diaprats of the order share theese virtues:</p>
+      <p class="indent"><b><i>Asceticism</i></b> A grave knight must practice selflesness, complete absinence in material goods and worldly pleasures. Only through a rigid spiritual practice a grave knight may preserve the consciousness and sense of self into the undeath. </p>
+      <p class="indent"><b><i>Self sacrifice</i></b> A grave knight must not be afraid to give up its possessions, sustain wounds or be humiliated to protect those in need and fulfil its duties. </p>
+      <p class="indent"><b><i>Chivalry</i></b> A grave knight must hold itself to a high moral compass, be an example to the people and a pillar of the community. In undeadth a catacomb saint is not feared, but reveared for his deeds in life. </p>
+      <p class="indent"><b><i>Mortality</i></b>  A grave knight walks a path of death and ponders mortality and frailty of existence. Grave knights will participate in frays, wars, disasters and epidemies close to the avant-garde where they can help the most and get accustomed with the concept of death.</p>
+
+      
+      <div element="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_OATH_SPELLS" />
+      <div element="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CHANNEL_DIVINITY" />
+      <div element="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_AURA_OF_THE_GRAVE_KEEPER" />
+      <div element="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CATACOMB_SAINT" />
+      <div element="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_INVINCIBLE_ETHERNAL_PROTECTOR" />
+    </description>
+    <sheet>
+      <description>The Oath of Conquest calls to paladin to self sacrifice and ethernal servitude.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_OATH_SPELLS" level="1" />
+      <grant type="Archetype Feature" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CHANNEL_DIVINITY" level="3" />
+      <grant type="Archetype Feature" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_AURA_OF_THE_GRAVE_KEEPER" level="7" />
+      <grant type="Archetype Feature" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CATACOMB_SAINT" level="15" />
+      <grant type="Archetype Feature" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_INVINCIBLE_ETHERNAL_PROTECTOR" level="20" />
+    </rules>
+  </element>
+  <element name="Oath Spells" type="Archetype Feature" source="Phanes" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_OATH_SPELLS">
+    <description>
+      <p>You gain oath spells at the paladin levels listed in the Oath of Conquest Spells table. See the Sacred Oath class feature for how oath spells work.</p>
+      <h5>Oath of Conquest Spells</h5>
+      <table>
+        <thead>
+        <tr><td>Paladin Level</td><td>Spells</td></tr>
+        </thead>
+        <tr><td>3rd</td><td><em>Healing word, Bane</em></td></tr>
+        <tr><td>5th</td><td><em>See invisibility, Blindness/Deafness</em></td></tr>
+        <tr><td>9th</td><td><em>Beacon of hope, Animate Dead</em></td></tr>
+        <tr><td>13th</td><td><em>Sickening Radiance, Blight</em></td></tr>
+        <tr><td>17th</td><td><em>Mass cure wounds, Cloudkill</em></td></tr>
+      </table>      
+    </description>
+    <sheet display="false">
+      <description>You gain oath spells at the paladin levels listed in the Oath of Conquest Spells table.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_HEALING_WORD" level="3" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_BANE" level="3" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SEE_INVISIBILITY" level="5" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_BLINDNESS_DEAFNESS" level="5" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_BEACON_OF_HOPE" level="9" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_ANIMATE_DEAD" level="9" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_XGTE_SPELL_SICKENING_RADIANCE" level="13" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_BLIGHT" level="13" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CLOUDKILL" level="17" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_MASS_CURE_WOUNDS" level="17" spellcasting="Paladin" prepared="true" />
+    </rules>
+  </element>
+  
+  <element name="Channel Divinity" type="Archetype Feature" source="Phanes" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CHANNEL_DIVINITY">
+    <description>
+      <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+      <p class="indent"><b><i>Walk among the dead. </i></b>As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 60 feet of you that has challenge rating of 1 or lower ignores your and your allies presence for the next hour or until it is provoked (targeted by an ability, spell, effect or takes damage). </p>
+      <p class="indent"><b><i>Persistence of life. </i></b>As an action, you channel your divine energy. All allies in 30 ft of you become stabilized and gain advantage to the next death saving throw.</p>
+    </description>
+    <sheet display="false" />
+	<rules>
+		<grant type="Archetype Feature" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CHANNEL_DIVINITY_WALK_AMONG_THE_DEAD" />
+		<grant type="Archetype Feature" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CHANNEL_DIVINITY_PERSISTENCE_OF_LIFE" />
+	</rules>
+  </element>
+  
+  <element name="Channel Divinity: Walk among the dead" type="Archetype Feature" source="Phanes" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CHANNEL_DIVINITY_WALK_AMONG_THE_DEAD">
+    <description>
+      <p>As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 60 feet of you that has challenge rating of 1 or lower ignores your and your allies presence for the next hour or until it is provoked (targeted by an ability, spell, effect or takes damage). </p>
+    </description>
+    <sheet alt="Walk among the dead" action="Action" usage="Channel Divinity">
+      <description>you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 60 feet of you that has challenge rating of 1 or lower ignores your and your allies presence for the next hour or until it is provoked (targeted by an ability, spell, effect or takes damage). </description>
+    </sheet>
+  </element>
+  
+  <element name="Channel Divinity: Persistence of life" type="Archetype Feature" source="Phanes" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CHANNEL_DIVINITY_PERSISTENCE_OF_LIFE">
+    <description>
+      <p>As an action, you channel your divine energy. All allies in 30 ft of you become stabilized and gain advantage to the next death saving throw.</p>
+    </description>
+    <sheet alt="Persistence of life" usage="Channel Divinity">
+      <description>you channel your divine energy. All allies in 30 ft of you become stabilized and gain advantage to the next death saving throw.</description>
+    </sheet>
+  </element>
+  
+  <element name="Aura of the grave keeper" type="Archetype Feature" source="Phanes" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_AURA_OF_THE_GRAVE_KEEPER">
+    <description>
+      <p>Starting at 7th level, you and friendly creatures within 10 feet of you gain a bonus to their death saving throws equal to your charisma bonus. Additionaly whenever targets of the aura would automatically fail a death saving throw due to damage, they get to make a save instead.</p>
+      <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+    </description>
+    <sheet>
+      <description> you and friendly creatures within {{aura of grave keeper:aura}} feet of you gain a bonus to their death saving throws equal to your charisma bonus. Additionaly whenever targets of the aura would automatically fail a death saving throw due to damage, they get to make a save instead. </description>
+    </sheet>
+    <rules>
+      <stat name="aura of grave keeper:aura" value="10" bonus="aura of the grave keeper" />
+      <stat name="aura of grave keeper:aura" value="30" bonus="aura of the grave keeper" level="18" />
+    </rules>
+  </element>
+  
+  <element name="Catacomb saint" type="Archetype Feature" source="Phanes" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CATACOMB_SAINT">
+    <description>
+      <p>Starting at 15th level, when you are targeted by a spell that would bring you back from the dead (such as raise dead or revivify), the spell requires no material components. Additionally you can choose to come back as an undead version of yourself known as “Catacomb saint”. This gives you the following benefits:</p>
+      <p class="indent">You gain an “undead” creature tag.</p>
+      <p class="indent">You no longer need breathe or consume sustenance.</p>
+      <p class="indent">You no longer need to sleep, instead to have a long rest you meditate for 8 hours reflecting on yourself. During this period you are aware of your surroundings.</p>
+      <p class="indent">You gain 120 ft. of darkvision.</p>
+      <p class="indent">You are resistant to poison and necrotic damage.</p>
+      <p class="indent">You are immune to poisoned and exhausted conditions. </p>
+      <p class="indent">You can choose to deal necrotic damage using your “divine smite” ability.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>Starting at 15th level, when you are targeted by a spell that would bring you back from the dead (such as raise dead or revivify), the spell requires no material components. Additionally you can choose to come back as an undead version of yourself known as “Catacomb saint”. This gives you the following benefits:</p>
+      <p class="indent">You gain an “undead” creature tag.</p>
+      <p class="indent">You no longer need breathe or consume sustenance.</p>
+      <p class="indent">You no longer need to sleep, instead to have a long rest you meditate for 8 hours reflecting on yourself. During this period you are aware of your surroundings.</p>
+      <p class="indent">You gain 120 ft. of darkvision.</p>
+      <p class="indent">You are resistant to poison and necrotic damage.</p>
+      <p class="indent">You are immune to poisoned and exhausted conditions. </p>
+      <p class="indent">You can choose to deal necrotic damage using your “divine smite” ability.</p>
+      </description>
+    </sheet>
+  </element>
+  
+  <element name="Ethernal protector" type="Archetype Feature" source="Phanes" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_INVINCIBLE_ETHERNAL_PROTECTOR">
+    <description>
+      <p>At 20th level, something cool happens. Work in progress</p>
+     
+    </description>
+    <sheet>
+      <description></description>
+    </sheet>
+  </element>
+</elements>
