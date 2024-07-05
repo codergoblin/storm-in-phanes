@@ -72,22 +72,22 @@
   <element name="Channel Divinity" type="Archetype Feature" source="Phanes" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CHANNEL_DIVINITY">
     <description>
       <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
-      <p class="indent"><b><i>Walk among the dead. </i></b>As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 60 feet of you that has challenge rating of 1 or lower ignores your and your allies presence for the next minute or until any of them are provoked (targeted by an ability, spell, effect or takes damage). </p>
+      <p class="indent"><b><i>Dominate undead. </i></b>As an action, you verbally command an udead creature to submit. A target undead creatue in 30 ft. that you can see must make a WIS saving throw or become charmed for the next minute. The charmed undead will obey your commands and fight on your side. If the creature has a CR of 1 or higher it can repeat the saving throw at the end of each turn.</p>
       <p class="indent"><b><i>Persistence of life. </i></b>As an action, you channel your divine energy. All allies in 30 ft of you become stabilized and gain advantage to the next death saving throw.</p>
     </description>
     <sheet display="false" />
 	<rules>
-		<grant type="Archetype Feature" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CHANNEL_DIVINITY_WALK_AMONG_THE_DEAD" />
+		<grant type="Archetype Feature" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CHANNEL_DIVINITY_DOMINATE_UNDEAD" />
 		<grant type="Archetype Feature" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CHANNEL_DIVINITY_PERSISTENCE_OF_LIFE" />
 	</rules>
   </element>
   
-  <element name="Channel Divinity: Walk among the dead" type="Archetype Feature" source="Phanes" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CHANNEL_DIVINITY_WALK_AMONG_THE_DEAD">
+  <element name="Channel Divinity: Dominate undead" type="Archetype Feature" source="Phanes" id="ID_PHANES_ARCHETYPE_FEATURE_OATH_OF_THE_GRAVE_CHANNEL_DIVINITY_DOMINATE_UNDEAD">
     <description>
-      <p>As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 60 feet of you that has challenge rating of 1 or lower ignores your and your allies presence for the next hour or until it is provoked (targeted by an ability, spell, effect or takes damage). </p>
+      <p>As an action, you verbally command an udead creature to submit. A target undead creatue in 30 ft. that you can see must make a WIS saving throw or become charmed for the next minute. The charmed undead will obey your commands and fight on your side. If the creature has a CR of 1 or higher it can repeat the saving throw at the end of each turn.</p>
     </description>
-    <sheet alt="Walk among the dead" action="Action" usage="Channel Divinity">
-      <description>As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 60 feet of you that has challenge rating of 1 or lower ignores your and your allies presence for the next minute or until any of them are provoked (targeted by an ability, spell, effect or takes damage). </description>
+    <sheet alt="Dominate undead" action="Action" usage="Channel Divinity">
+      <description>As an action, you verbally command an udead creature to submit. A target undead creatue in 30 ft. that you can see must make a WIS saving throw or become charmed for the next minute. The charmed undead will obey your commands and fight on your side. If the creature has a CR of 1 or higher it can repeat the saving throw at the end of each turn.</description>
     </sheet>
   </element>
   
